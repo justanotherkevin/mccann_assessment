@@ -3,3 +3,54 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.reddit_posts {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post_wrapper {
+  border: solid 2px gray;
+  margin: 50px 20px;
+  box-shadow: 0px 0px 5px 0px #888888;
+  max-width: 500px;
+  width: 100%
+}
+
+.image_wrapper {
+  background-color: black;
+  height: 350px;
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: center;
+}
+
+.post_image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.title_wrapper {
+  font-family: Arvo;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  height: 100px;
+  padding: 0 60px;
+}
+.info_wrapper {
+  padding: 20px 0;
+  border-top: 1px solid gray;
+  position: relative;
+}
+
+.info_wrapper ul li {
+  list-style: circle;
+  display: inline-block;
+}
+
+.info_wrapper ul li span {
+  margin: 0 5px;
+}
